@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isPressed = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView  {
+            Button("Show Modal") {
+                self.isPressed = true
+            }.sheet(isPresented: $isPressed) {
+                ModalView()
+            }.navigationBarTitle("Whata Gwaan")
+        }
     }
 }
 

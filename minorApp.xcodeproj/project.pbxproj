@@ -13,6 +13,7 @@
 		87E21E1926B5E6FB0016EB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E21E1826B5E6FB0016EB8D /* Assets.xcassets */; };
 		87E21E1C26B5E6FB0016EB8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E21E1B26B5E6FB0016EB8D /* Preview Assets.xcassets */; };
 		87E21E1F26B5E6FB0016EB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E21E1D26B5E6FB0016EB8D /* LaunchScreen.storyboard */; };
+		87E21E2726B5E7FE0016EB8D /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E21E2626B5E7FE0016EB8D /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		87E21E1B26B5E6FB0016EB8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87E21E1E26B5E6FB0016EB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87E21E2026B5E6FB0016EB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E21E2626B5E7FE0016EB8D /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				87E21E1D26B5E6FB0016EB8D /* LaunchScreen.storyboard */,
 				87E21E2026B5E6FB0016EB8D /* Info.plist */,
 				87E21E1A26B5E6FB0016EB8D /* Preview Content */,
+				87E21E2626B5E7FE0016EB8D /* ModalView.swift */,
 			);
 			path = minorApp;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				87E21E1326B5E6F60016EB8D /* AppDelegate.swift in Sources */,
 				87E21E1526B5E6F60016EB8D /* SceneDelegate.swift in Sources */,
+				87E21E2726B5E7FE0016EB8D /* ModalView.swift in Sources */,
 				87E21E1726B5E6F60016EB8D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
